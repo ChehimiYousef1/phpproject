@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="coursesInfoFrom.css">
+    </head>
+    <body>
+        
+        <h1 style="text-align: center;"> Courses Information From </h1>
+        <h2 style="text-align: center;"> Bachelor's in Computer Science </h2>
+        
+        <form method="post" action="coursesInfoForm.php">
+            <label for="code">code </label>
+            <input type="text" name="code" id="code" required>
+            <br/>
+            <br/>
+            <label for="titre">title: </label>
+            <input type="text" name="titre" id="titre" required>
+            <br/>
+            <br/>
+            <label for="nbOfCredits">number of credits:  </label>
+            <input type="text" name="nbOfCredits" id="nbOfCredits" required>
+            <br/>
+            <br/>
+            <label for="prof">professor:  </label>
+            <input type="text" name="prof" id="prof" required>
+            <br/>
+            <br/>
+            <label for="maxNbOfStds">maximun number of students:  </label>
+            <input type="text" name="maxNbOfStds" id="maxNbOfStds" required>
+            <br/>
+            <br/>
+            <label for="modifyCode">Code to Modify:</label>
+            <input type="text" name="modifyCode" id="modifyCode">
+            <br/><br/>
+            <label for="newProf">New Professor Name:</label>
+            <input type="text" name="newProf" id="newProf">
+            <br/><br/>
+            <input type="submit" value="submit">
+            <button onclick="location.href='coursesInfoFrom.php'">
+                <span>go to table</span>
+            </button>
+        </form>
+        
+    </body>
+    <footer></footer>
+</html>
